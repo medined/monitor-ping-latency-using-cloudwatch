@@ -1,4 +1,8 @@
+# Monitor Ping Latency Across AWS Regions
 
+The ping latency within a region is much less than between regions. This much is obvious but how much variance is there in intra-region latency timing? And when does it spike during certain times or coincide with your application connection issues?
+
+This project shows are way to monitor intra-region ping times.
 
 # us-east-1c
 ssh -i ~/.ssh/odol-sango.pem ec2-user@34.227.7.33
